@@ -6,22 +6,21 @@
         {
           Console.WriteLine("What's your favorite subject at school?");
           string favoriteSubject = Console.ReadLine();
-          
-          switch (favoriteSubject)
+          switch (favoriteSubject.ToUpper())
           {
-              case "Math":
+              case "MATH":
                 Console.WriteLine("Math is cool because it's all about solving problems!");
                 break;
                 
-              case "English":
+              case "ENGLISH":
                   Console.WriteLine("English is awesome, I love to write!");
                   break;
               
-              case "History":
+              case "HISTORY":
                   Console.WriteLine("History is so interesting. I love to learn about Ancient Rome!");
                   break;
               
-              case "Science":
+              case "SCIENCE":
                   Console.WriteLine("Like Bill Nye said... science rules!");
                   break;
               
